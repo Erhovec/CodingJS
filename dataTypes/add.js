@@ -1,43 +1,39 @@
 // Выполнить сложение различных типов(string+boolean, string+number, number+boolean)
 
-let a = "" + false;  
-let b = "words" + true;  
-let c = 10 + " " + 15;  
-let d = true + 10;   
-let e = 15 + false + true + 2;  
-let f = "4px" + 3;   
-
-
+let a = "" + false;
+let b = "words" + true;
+let c = 10 + " " + 15;
+let d = true + 10;
+let e = 15 + false + true + 2;
+let f = "4px" + 3;
 
 // Выполнить деление различных типов(string/boolean, string/number, number/Boolean)
-"profit" / true;  // NaN
-false / "";  // NaN
+"profit" / true; // NaN
+false / ""; // NaN
 "" / 10; // 0
-54 / "good luck";  // NaN
-20 / true;  // 20
-false / 3;  //  0
+54 / "good luck"; // NaN
+20 / true; // 20
+false / 3; //  0
 
 // Выполнить явное преобразование(number, string, boolean)
-Number(true);   //1
-Number("10");  //  10
+Number(true); //1
+Number("10"); //  10
 
-
-String(10);   // "10"
-String(false + "test");  // "false"
+String(10); // "10"
+String(false + "test"); // "false"
 
 let a = 10;
 let b = 3;
-String(b - a);   // "-7"
+String(b - a); // "-7"
 
 let a = 10;
 let b = "world";
-String(a + b);   // "10world"
+String(a + b); // "10world"
 
-
-Boolean(10);   // true
-Boolean(null || 10);  // true
-Boolean("15" && false);  //false
-Boolean(10 && false && "15");  //false
+Boolean(10); // true
+Boolean(null || 10); // true
+Boolean("15" && false); //false
+Boolean(10 && false && "15"); //false
 
 /*             =====================                   
 
