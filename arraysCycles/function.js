@@ -4,7 +4,7 @@
 */
 
 function index(arr, number) {
-    console.log( arr.indexOf(number) );
-};
+  console.log(arr.indexOf(number));
+}
 
-index([1,2,3,4,5,6,7], 3);
+index([1, 2, 3, 4, 5, 6, 7], 3);

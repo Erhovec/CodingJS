@@ -6,5 +6,5 @@
 let films = ["Rocky", "Home alone", "Call"];
 
 for (let film of films) {
-    console.log(film);
-};
+  console.log(film);
+}

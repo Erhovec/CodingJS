@@ -2,4 +2,4 @@
 
 let friends = ["Катя", "Оля", "Миша", "Петя", "Дима"];
 
-friends.forEach(name => console.log(`${name} hello`));
+friends.forEach((name) => console.log(`${name} hello`));
