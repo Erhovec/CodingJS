@@ -4,26 +4,24 @@
 */
 
 try {
-    console.log(a);
-    let a = 3;      
-} catch(err) {
-    console.log('let перед использованием нужно объявить');
-};
+  console.log(a);
+  let a = 3;
+} catch (err) {
+  console.log("let перед использованием нужно объявить");
+}
 
 function nullDevision(b, c) {
-    let d = b/c;
-    
-    try{
-            
-        if (c != 0){
-            console.log (d);
-        } else { 
-            throw new Error('На ноль делить нельзя'); 
-        } 
+  let d = b / c;
 
-    } catch (e){
-        console.log(e.message); 
+  try {
+    if (c != 0) {
+      console.log(d);
+    } else {
+      throw new Error("На ноль делить нельзя");
     }
-};
+  } catch (e) {
+    console.log(e.message);
+  }
+}
 
-nullDevision (5,0);
+nullDevision(5, 0);
