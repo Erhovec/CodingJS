@@ -10,13 +10,13 @@ car.color = "черный";
 car.color = "зеленый";
 
 function power(carPower) {
-    console.log(carPower);
+  console.log(carPower);
 
-    return carPower;
-};
+  return carPower;
+}
 
 car.power = power(300);
- 
+
 for (let key in car) {
-    console.log(key + ": " + car[key]);
-};
+  console.log(key + ": " + car[key]);
+}

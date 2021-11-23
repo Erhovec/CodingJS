@@ -1,8 +1,8 @@
 //  Напишите функцию вычисления типа аргумента и вывод типа в консоль
 
 function argumentType(arg) {
-    console.log(typeof(arg));
-};
+  console.log(typeof arg);
+}
 
 argumentType([1, 2, "Hello"]);
 argumentType();

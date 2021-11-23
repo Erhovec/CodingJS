@@ -4,5 +4,5 @@
 */
 
 function fruits(pears, apples) {
-    return pears + apples;
-};
+  return pears + apples;
+}
