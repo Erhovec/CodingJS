@@ -3,6 +3,6 @@
 количества принятых груш и яблок 
 */
 
-function fruits(pears, apples) {
+function getFruitsNumber(pears, apples) {
   return pears + apples;
 }

@@ -5,11 +5,11 @@
 
 let myName = "Kate";
 
-function nameDetector(name, text = "нет такого имени") {
-  if (name == myName) {
+function checkName(name, text = "нет такого имени") {
+  if (name === myName) {
     console.log("Привет " + name);
   } else {
     console.log(text);
   }
 }
-nameDetector("Kate");
+checkName("Kate");

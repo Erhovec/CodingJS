@@ -9,13 +9,13 @@ let car = {};
 car.color = "черный";
 car.color = "зеленый";
 
-function power(carPower) {
+function getCarPower(carPower) {
   console.log(carPower);
 
   return carPower;
 }
 
-car.power = power(300);
+car.power = getCarPower(300);
 
 for (let key in car) {
   console.log(key + ": " + car[key]);
