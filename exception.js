@@ -10,11 +10,11 @@ try {
   console.log("let перед использованием нужно объявить");
 }
 
-function nullDevision(b, c) {
+function divideByZero(b, c) {
   let d = b / c;
 
   try {
-    if (c != 0) {
+    if (c !== 0) {
       console.log(d);
     } else {
       throw new Error("На ноль делить нельзя");
@@ -24,4 +24,4 @@ function nullDevision(b, c) {
   }
 }
 
-nullDevision(5, 0);
+divideByZero(5, 0);
