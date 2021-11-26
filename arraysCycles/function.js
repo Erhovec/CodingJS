@@ -3,8 +3,8 @@
  и выводит индекс элемента массива равный числу
 */
 
-function index(arr, number) {
+function getIndexOfNumber(arr, number) {
   console.log(arr.indexOf(number));
 }
 
-index([1, 2, 3, 4, 5, 6, 7], 3);
+getIndexOfNumber([1, 2, 3, 4, 5, 6, 7], 3);

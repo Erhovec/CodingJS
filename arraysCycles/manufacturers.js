@@ -2,11 +2,7 @@
 
 let manufacturers = ["Honda", "BMW", "Audi", "Toyota", "Nissan", "Ferrari"];
 
-//manufacturers.toString();
-
-//var arr = "abcdef".split(''); // creates an array from a string
-
-let string = manufacturers.join(","); // creates a string from that above array
+let string = manufacturers.join(",");
 console.log(string);
 
 let array = string.split(",");

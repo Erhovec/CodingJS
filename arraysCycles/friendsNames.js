@@ -2,4 +2,5 @@
 
 let friends = ["Катя", "Оля", "Миша", "Петя", "Дима"];
 
-friends.forEach((name) => console.log(`${name} hello`));
+let helloFriends = friends.map((name) => `hello ${name}`);
+console.log(helloFriends);
